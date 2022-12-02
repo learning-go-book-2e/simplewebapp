@@ -1,7 +1,18 @@
 # Simple Web App
 
-This app runs simple calculations and writes the results to a local file.
+This app runs a web server that performs simple calculations and writes the results to a local file.
 
+To build:
+
+```
+go build .
+```
+
+To run:
+
+```
+./simplewebapp
+```
 The input is:
 
 ID

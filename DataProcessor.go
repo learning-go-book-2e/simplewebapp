@@ -121,5 +121,8 @@ func main() {
 	}
 	defer f.Close()
 	go WriteData(ch2, f)
-	http.ListenAndServe(":8080", NewController(ch1))
+	err = http.ListenAndServe(":8080", NewController(ch1))
+	if err != nil {
+		fmt.Println(err)
+	}
 }
