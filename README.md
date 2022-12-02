@@ -24,7 +24,8 @@ CALC_1
 
 Sample call to endpoint:
 
-```curl -X POST localhost:8080 --data 'CALC_2                                    
+```
+curl -X POST localhost:8080 --data 'CALC_2                                    
 *
 100
 3000'
