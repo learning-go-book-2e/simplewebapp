@@ -22,9 +22,9 @@ VAL1
 VAL2
 ```
 
-ID is any string
-OP is `+`, `-`, `*`, or `/`
-VAL1 and VAL2 are integers
+- ID is any string
+- OP is `+`, `-`, `*`, or `/`
+- VAL1 and VAL2 are integers
 
 Sample input:
 
