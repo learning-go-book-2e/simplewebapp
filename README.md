@@ -15,10 +15,12 @@ To run:
 ```
 The input is:
 
+```
 ID
 OP
 VAL1
 VAL2
+```
 
 ID is any string
 OP is `+`, `-`, `*`, or `/`
